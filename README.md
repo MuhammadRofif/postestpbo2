@@ -39,7 +39,7 @@ src/
 
 
 1. **Menambah Tugas**
-   Pilih opsi **1. Tambah Tugas Akademik atau 2. Tugas Kelompok** untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, prioritas tugas (1-5), dan jenis tugas.
+   Pilih opsi **1. Tambah Tugas Akademik atau 2. Tugas Kelompok**, untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, prioritas tugas (1-5), dan jenis tugas.
 
    - Prioritas 1: Paling tidak mendesak.
    - Prioritas 2: Lebih penting, tapi masih bisa ditunda.
