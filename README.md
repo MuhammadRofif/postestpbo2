@@ -121,9 +121,9 @@ Class ini menggunakan **constructor** untuk menginisialisasi objek baru dan memi
 
 Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas akademik. Menambahkan atribut tambahan `mataPelajaran` serta mengoverride method `getInfo()` untuk menampilkan informasi lengkap tugas akademik.
 
-### D. `TugasRumah.java`
+### D. `TugasKelompok.java`
 
-Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas rumah. Menambahkan atribut tambahan `lokasi` serta mengoverride method `getInfo()` untuk menampilkan informasi lengkap tugas kelompok.
+Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas kelompok. Menambahkan atribut tambahan `lokasi` serta mengoverride method `getInfo()` untuk menampilkan informasi lengkap tugas kelompok.
 
 ### E. `Pembantu.java`
 
