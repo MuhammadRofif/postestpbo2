@@ -1,0 +1,6 @@
+utils\Pembantu.class
+com\pbo\sistem_pengelolaan_tugas_harian\Crud.class
+com\pbo\sistem_pengelolaan_tugas_harian\TugasKelompok.class
+com\pbo\sistem_pengelolaan_tugas_harian\Main.class
+com\pbo\sistem_pengelolaan_tugas_harian\Tugas.class
+com\pbo\sistem_pengelolaan_tugas_harian\TugasAkademik.class
