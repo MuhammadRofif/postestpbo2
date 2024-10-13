@@ -23,12 +23,12 @@ src/
              └── Main.java
              └── Tugas.java
              └── TugasAkademik.java
-             └── TugasRumah.java
+             └── TugasKelompok.java
  └── utils/
      └── Pembantu.java
 ```
 
-- **com.pbo.sistem_pengelolaan_tugas_harian**: Berisi class `Main`, `Tugas`, `TugasAkademik`, `TugasRumah`, dan `Crud` sebagai komponen utama sistem.
+- **com.pbo.sistem_pengelolaan_tugas_harian**: Berisi class `Main`, `Tugas`, `TugasAkademik`, `TugasKelompok`, dan `Crud` sebagai komponen utama sistem.
 - **utils**: Berisi class `Pembantu` untuk mencetak informasi sistem dan menampilkan pesan keluar.
 
 ## Cara Penggunaan
