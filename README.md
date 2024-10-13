@@ -4,7 +4,7 @@ Program ini adalah program sederhana berbasis Java yang digunakan untuk mengelol
 
 ## Fitur
 
-- **Tambah Tugas**: Pengguna dapat menambahkan tugas baru dengan informasi seperti nama, deskripsi, prioritas tugas, serta jenis tugas (akademik atau rumah).
+- **Tambah Tugas**: Pengguna dapat menambahkan tugas baru dengan informasi seperti nama, deskripsi, prioritas tugas, serta jenis tugas (akademik atau kelompok).
 - **Lihat Tugas**: Menampilkan semua tugas yang telah ditambahkan, dengan informasi ID, nama, deskripsi, prioritas, dan jenis tugas.
 - **Update Tugas**: Pengguna dapat memperbarui tugas dengan informasi seperti nama, deskripsi, dan prioritas tugas.
 - **Hapus Tugas**: Menghapus tugas berdasarkan ID yang dimasukkan oleh pengguna.
@@ -115,7 +115,7 @@ Class yang mendefinisikan objek `Tugas`. Properti dari class ini meliputi:
 - `deskripsi`: Deskripsi tugas.
 - `prioritas`: Prioritas tugas dalam rentang 1-5.
 
-Class ini menggunakan **constructor** untuk menginisialisasi objek baru dan memiliki metode `getInfo()` yang digunakan untuk mengembalikan informasi tugas dalam format string. Class ini juga merupakan kelas abstrak yang diwarisi oleh kelas `TugasAkademik` dan `TugasRumah`.
+Class ini menggunakan **constructor** untuk menginisialisasi objek baru dan memiliki metode `getInfo()` yang digunakan untuk mengembalikan informasi tugas dalam format string. Class ini juga merupakan kelas abstrak yang diwarisi oleh kelas `TugasAkademik` dan `TugasKelompok`.
 
 ### C. `TugasAkademik.java`
 
@@ -123,7 +123,7 @@ Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas akademik. Menambahka
 
 ### D. `TugasRumah.java`
 
-Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas rumah. Menambahkan atribut tambahan `lokasi` serta mengoverride method `getInfo()` untuk menampilkan informasi lengkap tugas rumah.
+Subclass dari `Tugas`, berfungsi untuk mendefinisikan tugas rumah. Menambahkan atribut tambahan `lokasi` serta mengoverride method `getInfo()` untuk menampilkan informasi lengkap tugas kelompok.
 
 ### E. `Pembantu.java`
 
